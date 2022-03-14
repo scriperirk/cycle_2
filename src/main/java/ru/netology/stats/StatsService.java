@@ -29,7 +29,7 @@ public class StatsService {
     }
 
     //Номер месяца, в котором был минимум продаж
-    public int calculateMonthMin(int[] sales) {
+    public int calculateMonthMin(long[] sales) {
         int minMonth = 0;
         int month = 0;
         for (long sale : sales) {
